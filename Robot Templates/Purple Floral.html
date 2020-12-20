@@ -1,0 +1,492 @@
+<style><!--
+
+.expandsign{
+  float: right;
+  margin:0px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.collapsible_div{
+  width: 100%;
+  padding-top: 30px;
+}
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border-style: solid none none none;
+  border-width: thin;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.active, .collapsible:hover {
+  background-color: #F4F4FC;
+}
+
+.content {
+  padding: 10px 0px;
+  display: none;
+  overflow: hidden;
+  background-color: #F4F4FC;
+  font-size:15px;
+}
+
+@media(max-width:770px){
+  .collapsible_div{
+    display: block;
+  }
+  .Desktopview{
+    display: none;
+  }
+}
+
+
+@media(min-width: 770px){
+  .collapsible_div{
+    display: none;
+  }
+  .Desktopview{
+    display: block;
+  }
+}
+
+
+
+body {
+  font-family: 'Montserrat';
+  font-size: 22px;
+
+}
+.dynamiciconsize{
+
+  cursor:pointer;
+}
+.vm{
+  vertical-align:middle
+}
+
+.whitesectionregular{
+  background-color:white;
+  border-radius:0px 300px 300px 0px;
+  padding:0px;
+  margin-bottom:50px;
+  text-align:center;
+}
+
+@media all and (max-width:1050px){
+  .whitesectionregular{
+    border-radius:0px;
+  }
+}
+
+.w3-row-padding{
+  text-align:center
+}
+w3-hover-opacity{
+  cursor: pointer;
+}
+
+.whitesectionright{
+  background-color:white;
+  border-radius:0px 300px 300px 0px;
+  padding:0px;
+  margin-bottom:50px;
+  text-align:center;
+}
+
+.whitesectionleft{
+  background-color:white;
+  border-radius:300px 0px 0px 300px;
+  padding:0px;
+  margin-bottom:50px;
+  text-align:center;
+}
+.inlineblock{
+
+  display:inline-block
+}
+h6{
+
+  font-size: 1em;
+  font-family: 'Montserrat';
+  text-align:center;
+  font-family: 'Montserrat';
+}
+
+h5{
+  font-size: 1em;
+  font-family: 'Montserrat';
+  padding:10px;
+  text-align:center;
+  margin-bottom:15px
+
+}
+h4{
+  font-size:4px;
+  border:0;
+  padding:0;
+  margin:0;
+}
+@media(max-width:430px){
+  .dynamiciconsize{
+    width:12vmin;
+  }
+}
+@media(max-width:1020px) {
+  .Canvas-Container {
+    display: table;
+    border-spacing: 0 5px;
+    width: 100%;
+  }
+  .first {
+    display: table-row-group;
+  }
+  .second {
+    display: table-header-group;
+  }
+}
+@media(min-width:1020px) {
+  .Canvas-Container {
+    display: block;
+    border-spacing: 0 5px;
+    width: 100%;
+  }
+  .first {
+    display: inline-block;
+  }
+  .second {
+    display: inline-block;
+  }
+}
+
+.tab {
+  overflow: hidden;
+  margin-top:20px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width:25%;
+  padding: 10px 0px;
+}
+@media (max-width:560px){
+  .tab button {
+    font-size:3vmin
+  }
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+-->
+</style>
+
+<div class="collapsible_div">
+<button type="button" class="collapsible">Description <p class="expandsign">+</p></button>
+<div class="content">
+  <ul>
+    <li>
+      <b>Name</b> Robot Lighting Unit - Purple Floral
+    </li>
+    <li>
+      <b>Size</b> 20 x 20 x 60
+    </li>
+    <li>
+      <b>Color</b> Purple Floral
+    </li>
+    <li>
+      <b>Material</b> <ul>
+<li>Body made of Finnish plywood</li> <li>Cover made of high quality printed canvas</li>
+</ul>
+    </li>
+    <li>
+      <b>Brand</b> PRODO
+    </li>
+    <li>
+      <b>SKU</b> BU-ROB-35-012-04|ROB-01-020-00
+    </li>
+    <li>
+      <b>Country of manufacture</b> Egypt
+    </li>
+    <li>
+      <b>Keywords</b> Egypt, Night Light, Desk Lamp, Table Lamp, Table Lights, Bedside Lamp, Nightstand Lamp, Bed Lamp, Reading Lamp
+    </li>
+
+  </ul>
+</div>
+<button type="button" class="collapsible">Color Options <p class="expandsign">+</p></button>
+<div class="content">
+  <div style="text-align: center;" class="whitesectionregular">
+<h6 style="margin: 0px;padding-top:10px" data-mce-style="margin: 0px;padding-top:10px">Choose between 12 canvas designs</h6>
+<h4></h4>
+<div class="w3-row-padding">
+<div style="text-align: center;" class="w3-col s3 w3-container">
+<div style="display: block;" data-mce-style="display: block;">
+<a class="w3-hover-opacity" onclick="openImg('101');"> <img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Warm_Tribal_Pattern_50x50.png?v=1601895834" alt="Warm Tribal" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Warm_Tribal_Pattern_50x50.png?v=1601895834"> </a> <a class="w3-hover-opacity" onclick="openImg('21');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Blue_Floral_Pattern_50x50.png?v=1601895875" alt="Blue Floral" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Blue_Floral_Pattern_50x50.png?v=1601895875"> </a> <a class="w3-hover-opacity" onclick="openImg('31');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Golden_Pattern_50x50.png?v=1601895906" alt="Golden Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Golden_Pattern_50x50.png?v=1601895906"> </a> <a class="w3-hover-opacity" onclick="openImg('41');"><img style="float: none;" alt="Purple Floral Pattern" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Purple_Floral_Pattern_50x50.png?v=1601895943" class="dynamiciconsize" data-mce-style="float: none;"></a> <a class="w3-hover-opacity" onclick="openImg('51');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Yellow_Indian_Pattern_50x50.png?v=1601895983" alt="Yellow Indian Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Yellow_Indian_Pattern_50x50.png?v=1601895983"></a> <a class="w3-hover-opacity" onclick="openImg('61');"> <img alt="Van Gogh" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Van_Gogh_Pattern_50x50.png?v=1601896011" class="dynamiciconsize"> </a> <a class="w3-hover-opacity" onclick="openImg('71');"> <img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Flowers_Pattern_480x480.png?v=1601896034" alt="Flowers Pattern" width="50x50" height="50x50" style="float: none;" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Flowers_Pattern_480x480.png?v=1601896034" data-mce-style="float: none;"></a> <a class="w3-hover-opacity" onclick="openImg('81');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Triangles_Pattern_50x50.png?v=1601896066" alt="Triangles Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Triangles_Pattern_50x50.png?v=1601896066"> </a> <a class="w3-hover-opacity" onclick="openImg('91');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Bohemian_Pattern_50x50.png?v=1601896099" alt="Bohemian Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Bohemian_Pattern_50x50.png?v=1601896099"></a> <a class="w3-hover-opacity" onclick="openImg('101');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Green_Tribal_Pattern_50x50.png?v=1601896128" alt="Green Tribal Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Green_Tribal_Pattern_50x50.png?v=1601896128"></a> <a class="w3-hover-opacity" onclick="openImg('111');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/African_Geometric_Pattern_50x50.png?v=1601896165" alt="African Geometric Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/African_Geometric_Pattern_50x50.png?v=1601896165"> </a> <a class="w3-hover-opacity" onclick="openImg('121');"><img alt="Yellow Pattern" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Yellow_Pattern_50x50.png?v=1601896232" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Yellow_Pattern_50x50.png?v=1601896232"></a> </div>
+<div class="Canvas-Container" style="text-align: center;">
+<div id="101" class="picture w3-display-container inlineblock second" style="display: none;">
+<h6 style="margin: 0px;" data-mce-style="margin: 0px;"><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-warm-tribal-pattern" title="Robot Lighting Unit - Warm Tribal Pattern"><img alt="Warm Tribal Big" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Studio_Session-357_480x480.png?v=1601910166" width="250" height="250" style="float: none;"></a></h6>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Warm Tribal</div>
+</div>
+<div id="21" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6 style="margin: 0px;" data-mce-style="margin: 0px;"><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-blue-floral" title="Robot Lighting Unit - Blue Floral"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/5c53bf3953f6fd98967dad35d9cb0595_480x480.png?v=1601809939" alt="Blue Floral Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Blue Floral</div>
+</div>
+<div id="31" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-golden-pattern" title="Robot Lighting Unit - Golden Pattern"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/9434abef501bcaf57bf9728cc2c78ea3_480x480.png?v=1601809939" alt="Golden Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Golden Pattern</div>
+</div>
+<div id="41" class="picture w3-display-container inlineblock second" style="display: block;" data-mce-style="display: block;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-purple-floral" title="Robot Lighting Unit - Purple Floral"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/55407325d5c3fc584a6ee050301f2ca6_480x480.png?v=1601809939" alt="Purple Floral Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Purple Floral</div>
+</div>
+<div id="51" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-yellow-indian-floral" title="Robot Lighting Unit - Yellow Indian"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/0c4f2094360b24753c4bc846ba0e1ea0_480x480.png?v=1601809939" alt="Yellow Indian"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Yellow Indian</div>
+</div>
+<div id="61" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-van-gogh" title="Robot Lighting Unit - Van Gogh"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/fcea123f9a37e473e81e4014701fcce1_480x480.png?v=1601809939" alt="Van Gogh Big"></a></h6>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Van Gogh</div>
+</div>
+<div id="71" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-flower-pattern" title="Robot Lighting Unit - Flowers Pattern"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/558d286a146704c47dcd707de139ad01_480x480.png?v=1601809939" alt="Flowers Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Flowers Pattern</div>
+</div>
+<div id="81" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-triangles-pattern" title="Robot Lighting Unit - Triangles Pattern"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/d69197abb929dc06e1dce101cfc37bd7_480x480.png?v=1601809939" alt="Triangles Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Triangles Pattern</div>
+</div>
+<div id="91" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-bohemian-pattern" title="Robot Lighting Unit - Bohemian Pattern"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/9c8e259d3364af0febf6e95ba37bf590_480x480.png?v=1601809939" alt="Bohemian Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Bohemian Pattern</div>
+</div>
+<div id="101" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-green-tribal-pattern" title="Robot Lighting Unit - Green Tribal"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/a0e06673815163c170ee2fc175e28cde_480x480.png?v=1601809939" alt="Green Tribal Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Green Tribal</div>
+</div>
+<div id="111" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-african-geometric" title="Robot Lighting Unit - African Geometric"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/261dbbeaffafa77267b4ef56e505ca36_480x480.png?v=1601809939" alt="African Geometric Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">African Geometric</div>
+</div>
+<div id="121" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-yellow-pattern" title="Robot Lighting Unit - Yellow Pattern"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_png_yellow_480x480.png?v=1605794813" data-mce-fragment="1" alt="Yellow Pattern Big" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_png_yellow_480x480.png?v=1605794813"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Yellow Pattern</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<button type="button" class="collapsible">Features and dimensions <p class="expandsign">+</p></button>
+<div class="content">
+  <div style="text-align: center;" class="whitesectionleft" data-mce-style="text-align: center;">
+<p><img height="1024" width="2123" style="float: none;" alt="Dynamics" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-02_1024x1024.png?v=1601985962" class="vm" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-02_1024x1024.png?v=1601985962"></p>
+</div>
+<div style="text-align: center;" class="whitesectionright" data-mce-style="text-align: center;">
+<p><img style="float: none;" alt="Material" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-03_1024x1024.png?v=1601985938" class="vm" width="2124" height="1024" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-03_1024x1024.png?v=1601985938" data-mce-style="float: none;"></p>
+</div>
+<div style="text-align: center;" class="whitesectionleft" data-mce-style="text-align: center;">
+<p><img style="float: none;" alt="Dimensions" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-04_1024x1024.png?v=1601985976" class="vm" width="2124" height="1024" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-04_1024x1024.png?v=1601985976" data-mce-style="float: none;"></p>
+</div>
+
+</div>
+
+<button type="button" class="collapsible">Packaging <p class="expandsign">+</p></button>
+<div class="content">
+<div id="Packaging" style="text-align: center;" class="whitesectionright" data-mce-style="text-align: center;"><img data-mce-fragment="1" style="float: none;" alt="Packaging" class="vm" width="2124" height="1024" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_package_1740ef35-3ea5-4d08-9812-4f4b431adba1.jpg?v=1608464108" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_package_1740ef35-3ea5-4d08-9812-4f4b431adba1.jpg?v=1608464108" data-mce-style="float: none;"></div>
+</div>
+
+</div>
+
+
+
+<div class="Desktopview">
+
+<div class="tab">
+<button class="tablinks" id="ColorOptionsbutton">Colors</button> <button class="tablinks" id="Featuresbutton">Features</button> <button class="tablinks" id="Dimensionsbutton">Dimensions</button> <button class="tablinks" id="Packagingbutton">Package</button>
+</div>
+<div style="text-align: center;" class="whitesectionregular" id="ColorOptions">
+<h6 style="margin: 0px;padding-top:10px" data-mce-style="margin: 0px;padding-top:10px">Choose between 12 canvas designs</h6>
+<h4></h4>
+<div class="w3-row-padding">
+<div style="text-align: center;" class="w3-col s3 w3-container">
+<div style="display: block;" data-mce-style="display: block;">
+<a class="w3-hover-opacity" onclick="openImg('1');"> <img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Warm_Tribal_Pattern_50x50.png?v=1601895834" alt="Warm Tribal" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Warm_Tribal_Pattern_50x50.png?v=1601895834"> </a> <a class="w3-hover-opacity" onclick="openImg('2');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Blue_Floral_Pattern_50x50.png?v=1601895875" alt="Blue Floral" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Blue_Floral_Pattern_50x50.png?v=1601895875"> </a> <a class="w3-hover-opacity" onclick="openImg('3');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Golden_Pattern_50x50.png?v=1601895906" alt="Golden Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Golden_Pattern_50x50.png?v=1601895906"> </a> <a class="w3-hover-opacity" onclick="openImg('4');"><img style="float: none;" alt="Purple Floral Pattern" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Purple_Floral_Pattern_50x50.png?v=1601895943" class="dynamiciconsize" data-mce-style="float: none;"></a> <a class="w3-hover-opacity" onclick="openImg('5');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Yellow_Indian_Pattern_50x50.png?v=1601895983" alt="Yellow Indian Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Yellow_Indian_Pattern_50x50.png?v=1601895983"></a> <a class="w3-hover-opacity" onclick="openImg('6');"> <img alt="Van Gogh" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Van_Gogh_Pattern_50x50.png?v=1601896011" class="dynamiciconsize"> </a> <a class="w3-hover-opacity" onclick="openImg('7');"> <img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Flowers_Pattern_480x480.png?v=1601896034" alt="Flowers Pattern" width="50x50" height="50x50" style="float: none;" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Flowers_Pattern_480x480.png?v=1601896034" data-mce-style="float: none;"></a> <a class="w3-hover-opacity" onclick="openImg('8');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Triangles_Pattern_50x50.png?v=1601896066" alt="Triangles Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Triangles_Pattern_50x50.png?v=1601896066"> </a> <a class="w3-hover-opacity" onclick="openImg('9');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Bohemian_Pattern_50x50.png?v=1601896099" alt="Bohemian Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Bohemian_Pattern_50x50.png?v=1601896099"></a> <a class="w3-hover-opacity" onclick="openImg('10');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Green_Tribal_Pattern_50x50.png?v=1601896128" alt="Green Tribal Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Green_Tribal_Pattern_50x50.png?v=1601896128"></a> <a class="w3-hover-opacity" onclick="openImg('11');"><img src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/African_Geometric_Pattern_50x50.png?v=1601896165" alt="African Geometric Pattern" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/African_Geometric_Pattern_50x50.png?v=1601896165"> </a> <a class="w3-hover-opacity" onclick="openImg('12');"><img alt="Yellow Pattern" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Yellow_Pattern_50x50.png?v=1601896232" class="dynamiciconsize" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Yellow_Pattern_50x50.png?v=1601896232"></a> </div>
+<div class="Canvas-Container" style="text-align: center;">
+<div id="1" class="picture w3-display-container inlineblock second" style="display: none;">
+<h6 style="margin: 0px;" data-mce-style="margin: 0px;"><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-warm-tribal-pattern" title="Robot Lighting Unit - Warm Tribal Pattern"><img alt="Warm Tribal Big" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Studio_Session-357_480x480.png?v=1601910166" width="250" height="250" style="float: none;"></a></h6>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Warm Tribal</div>
+</div>
+<div id="2" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6 style="margin: 0px;" data-mce-style="margin: 0px;"><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-blue-floral" title="Robot Lighting Unit - Blue Floral"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/5c53bf3953f6fd98967dad35d9cb0595_480x480.png?v=1601809939" alt="Blue Floral Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Blue Floral</div>
+</div>
+<div id="3" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-golden-pattern" title="Robot Lighting Unit - Golden Pattern"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/9434abef501bcaf57bf9728cc2c78ea3_480x480.png?v=1601809939" alt="Golden Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Golden Pattern</div>
+</div>
+<div id="4" class="picture w3-display-container inlineblock second" style="display: block;" data-mce-style="display: block;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-purple-floral" title="Robot Lighting Unit - Purple Floral"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/55407325d5c3fc584a6ee050301f2ca6_480x480.png?v=1601809939" alt="Purple Floral Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Purple Floral</div>
+</div>
+<div id="5" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-yellow-indian-floral" title="Robot Lighting Unit - Yellow Indian"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/0c4f2094360b24753c4bc846ba0e1ea0_480x480.png?v=1601809939" alt="Yellow Indian"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Yellow Indian</div>
+</div>
+<div id="6" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-van-gogh" title="Robot Lighting Unit - Van Gogh"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/fcea123f9a37e473e81e4014701fcce1_480x480.png?v=1601809939" alt="Van Gogh Big"></a></h6>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Van Gogh</div>
+</div>
+<div id="7" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-flower-pattern" title="Robot Lighting Unit - Flowers Pattern"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/558d286a146704c47dcd707de139ad01_480x480.png?v=1601809939" alt="Flowers Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Flowers Pattern</div>
+</div>
+<div id="8" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-triangles-pattern" title="Robot Lighting Unit - Triangles Pattern"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/d69197abb929dc06e1dce101cfc37bd7_480x480.png?v=1601809939" alt="Triangles Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Triangles Pattern</div>
+</div>
+<div id="9" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-bohemian-pattern" title="Robot Lighting Unit - Bohemian Pattern"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/9c8e259d3364af0febf6e95ba37bf590_480x480.png?v=1601809939" alt="Bohemian Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Bohemian Pattern</div>
+</div>
+<div id="10" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-green-tribal-pattern" title="Robot Lighting Unit - Green Tribal"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/a0e06673815163c170ee2fc175e28cde_480x480.png?v=1601809939" alt="Green Tribal Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Green Tribal</div>
+</div>
+<div id="11" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-african-geometric" title="Robot Lighting Unit - African Geometric"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/products/261dbbeaffafa77267b4ef56e505ca36_480x480.png?v=1601809939" alt="African Geometric Big"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">African Geometric</div>
+</div>
+<div id="12" class="picture w3-display-container inlineblock second" style="display: none;" data-mce-style="display: none;">
+<h6><a href="https://prodoeg.com/collections/lighting/products/robot-desk-lamp-yellow-pattern" title="Robot Lighting Unit - Yellow Pattern"><img style="float: none;" height="250" width="250" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_png_yellow_480x480.png?v=1605794813" data-mce-fragment="1" alt="Yellow Pattern Big" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_png_yellow_480x480.png?v=1605794813"></a></h6>
+<span class="w3-display-topright w3-button w3-transparent w3-text-white" onclick="this.parentElement.style.display='none'"></span>
+<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Yellow Pattern</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<script>
+function openImg(imgName) {
+  var i, x;
+  x = document.getElementsByClassName("picture");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(imgName).style.display = "inline-block";
+
+  if ($(window).width() < 1020) {
+    document.getElementById(imgName).style.display = "table-header-group";
+  }
+  else{
+    document.getElementById(imgName).style.display = "inline-block";
+  }
+}
+</script>
+<div class="Desktopview">
+<div style="text-align: center;" class="whitesectionleft" id="Features" data-mce-style="text-align: center;">
+<p><img height="1024" width="2123" style="float: none;" alt="Dynamics" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-02_1024x1024.png?v=1601985962" class="vm" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-02_1024x1024.png?v=1601985962"></p>
+</div>
+<div style="text-align: center;" class="whitesectionright" data-mce-style="text-align: center;">
+<p><img style="float: none;" alt="Material" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-03_1024x1024.png?v=1601985938" class="vm" width="2124" height="1024" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-03_1024x1024.png?v=1601985938" data-mce-style="float: none;"></p>
+</div>
+<div id="Dimensions" style="text-align: center;" class="whitesectionleft" data-mce-style="text-align: center;">
+<p><img style="float: none;" alt="Dimensions" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-04_1024x1024.png?v=1601985976" class="vm" width="2124" height="1024" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_WebPage-04_1024x1024.png?v=1601985976" data-mce-style="float: none;"></p>
+</div>
+<div id="Packaging" style="text-align: center;" class="whitesectionright" data-mce-style="text-align: center;"><img data-mce-fragment="1" style="float: none;" alt="Packaging" class="vm" width="2124" height="1024" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_package_1740ef35-3ea5-4d08-9812-4f4b431adba1.jpg?v=1608464108" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Robot_package_1740ef35-3ea5-4d08-9812-4f4b431adba1.jpg?v=1608464108" data-mce-style="float: none;"></div>
+<div style="text-align: center;">
+<img style="float: none;" height="240" width="240" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/Canves_Change-01_99c8172e-241f-4d52-9552-3af98e266a02_480x480.png?v=1601895050" alt="ChangeCanvas-01"><img style="float: none;" height="240" width="240" alt="ChangeableCanvas-02" src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/IMG20200928181030_480x480.png?v=1601895160" data-mce-fragment="1" data-mce-src="https://cdn.shopify.com/s/files/1/0488/4027/8172/files/IMG20200928181030_480x480.png?v=1601895160">
+</div>
+<div style="text-align: center;">
+<span style="color: #000000;">You can buy an additional separable canvas</span><strong><span style="color: #ff0000;"> </span></strong><span style="color: #ff0000;"><span style="text-decoration: underline; color: #0004ff;"><a style="color: #0004ff; text-decoration: underline;" href="https://prodoeg.com/collections/canvas-for-robot-desk-lamp/canvas">here</a></span></span>
+<p> </p>
+</div>
+</div>
+<script>
+$("#ColorOptionsbutton").click(function() {
+  $('html, body').animate({
+    scrollTop: $("#ColorOptions").offset().top -100
+    }, 1000);
+  });
+
+
+$("#Featuresbutton").click(function() {
+  $('html, body').animate({
+    scrollTop: $("#Features").offset().top -50
+    }, 1000);
+  });
+
+
+$("#Dimensionsbutton").click(function() {
+  $('html, body').animate({
+    scrollTop: $("#Dimensions").offset().top -100
+    }, 1000);
+  });
+
+$("#Packagingbutton").click(function() {
+  $('html, body').animate({
+    scrollTop: $("#Packaging").offset().top -100
+    }, 1000);
+  });
+</script>
+
+<script type="text/javascript">
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+} 
+
+
+</script>
